@@ -16,7 +16,7 @@ class numbers
     {
     	if(i%2==1)
     	{
-    		System.out.println(i+"");
+    		System.out.print(i+" ");
     	}
     }
 	}
