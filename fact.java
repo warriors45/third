@@ -13,7 +13,7 @@ class fact
 		int n=input.nextInt();
 		int fact=1;
 		int i;
-		for(i=2;i<=n;i++)
+		for(i=1;i<=n;i++)
 		{
 			fact=fact*i;
 		}
