@@ -29,6 +29,6 @@ class Ideone
 			}
 			}
 		}
-		System.out.print(a[n/2]+" ");
+		System.out.print(a[n/2]);
 	}
 }
