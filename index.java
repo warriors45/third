@@ -10,7 +10,7 @@ class Ideone
 		Scanner input=new Scanner(System.in);
 		int n=input.nextInt();
 		int a[]=new int[n];
-		int i,;
+		int i;
 		for(i=0;i<n;i++)
 		{
 			a[i]=input.nextInt();
