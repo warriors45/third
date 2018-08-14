@@ -18,4 +18,3 @@ class Ideone
 		System.out.println(count);
 	}
 }
-© 2018 GitHub, Inc.
