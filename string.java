@@ -9,13 +9,10 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		Scanner input=new Scanner(System.in);
-		String s=input.nextLine();
-		int n=input.nextInt();
-		int i;
-		for(i=0;i<n;i++)
-		{
-			System.out.println(s);
-		}
+		Scanner sc=new Scanner(System.in);
+		String s=sc.next();
+		int n=sc.nextInt();
+		for(int i=0;i<n;i++)
+	           System.out.println(s);
 	}
 }
