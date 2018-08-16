@@ -16,24 +16,7 @@ class Ideone
 		   System.out.println(s2);
 		 else
 		 {
-		 	char c11,c22;
-                     for (int i = 0; i < s1.length(); i++) 
-                     {
-                               c11=s1.charAt(i);
-                              c22=s2.charAt(i);
-                              if(c11==c22)
-                                 System.out.print(c11);
-                              else if(c11>c22)
-                              {
-                                 System.out.print(s1);
-                                 break;
-                              }
-                              else
-                              {
-                              	 System.out.print(s2);
-                              	 break;
-                              }
-                  }
+                              	 System.out.println(s2);
 		 }
 	}
 }
