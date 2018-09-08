@@ -12,7 +12,7 @@ class Ideone
 	     Scanner input=new Scanner(System.in);
 	     int n=input.nextInt();
 	     int sum=0;
-	     While(n>0)
+	     while(n>0)
 	     {
 	     	r=n%10;
 	     	sum=sum+r;
