@@ -11,11 +11,11 @@ class Ideone
 	{
 		Scanner input=new Scanner(System.in);
 		int n=input.nextInt();
-		int i,mul=1;
+		int i,sum=0;
 		for(i=1;i<=n;i++)
 		{
-		mul=mul*i;
+		sum=sum+i;
 		}
-		System.out.println(mul);
+		System.out.println(sum);
 	}
 }
